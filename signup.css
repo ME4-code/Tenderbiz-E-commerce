@@ -1,0 +1,74 @@
+body{
+  background-color: #ddd8d8;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+section{
+  width: 80%;
+  height: 80%;
+  margin: 70px auto;
+}
+section div{
+  float: left;
+  background-color: #ffffff;
+}
+.txt-div{
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10% 0 0 7%;
+}
+.txt-div p{
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.txt-div div{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.txt-div .buy-btn{
+  flex: 0.2;
+  margin-left: 2%;
+  background-color: white;
+  border: solid 1px #1C73f5;
+  border-radius: 10%;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+}
+.txt-div span{  
+  font-size: 25px;
+  margin: 0 5%;
+  color: rgb(180, 179, 179);
+}
+.txt-div .sell-btn{
+  flex: 0.3;
+  cursor: pointer;
+  margin-right: 3%;
+  background-color: #1C73f5;
+  color: rgb(232, 232, 241);
+  border: none;
+  border-radius: 10%;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+}
+.img-div{
+  width: 50%;
+  height: inherit;
+  cursor: pointer;
+  border-radius: 3rem;
+}
+.img-div img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0 3rem 3rem 0;
+}

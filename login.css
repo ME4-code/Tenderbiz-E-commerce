@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background:#EEECE8;
+    color:#765A0F;
+}
+
+header .box {
+    margin-left: 25vw;
+}
+
+header .box input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 600px;
+    height: 40px;
+    left: 150px;
+    right: 0;
+    top: 0px;
+    background: rgba(248, 244, 235, 0.8);
+    border: 1.05px solid #CECCCC;
+    border-radius: 8.4px;
+}
+
+header .box input:focus {
+    outline: none;
+}
+
+header .box1 {
+    display: flex;
+    justify-content: flex-end;
+}
+header .box1 i{
+    align-items: center;
+    color: #765A0F;
+    margin-left: 0px;
+    padding: 0 3px;
+    font-weight: 350;
+    font-size: 30px;
+}
+
+header .box1 button {
+    background-color: #406ef7;
+    border: none;
+    color: #fff;
+    border-radius: .3rem;
+    cursor: pointer;
+    padding: 2px;
+    height: 30px;
+    margin: 2px;
+}
+
+#rect {
+    background-color: #d27b27;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 70px;
+    font-size: 13px;
+    margin-left: 2.5vw;
+    margin-top: .5rem;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    height: 70vh;
+    width: 70vw;
+    margin-left: 13vw;
+    margin-top: 20vh;
+    border-radius: 3rem;
+}
+
+main .container {
+    display: flex;
+    border-radius: 3rem;
+    height: 70vh;
+    width: 70vw;
+    border: 1px solid black;
+}
+
+main .container img {
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    display: flex;
+    width: 50%;
+}
+
+main .container form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5.5rem;
+}
+
+main .container form h3 {
+    font-weight: 500;
+    margin-top: 2rem;
+    display: grid;
+    place-items: center;
+    padding-bottom: .5rem;
+}
+
+main .container form p {
+    font-size: .8rem;
+    padding-bottom: 2rem;
+}
+
+main .container form #email {
+    padding: 1rem;
+    border-radius: .5rem;
+    border: .05rem solid gray;
+    margin-bottom: .5rem;
+}
+
+main .container form #email:focus {
+    outline: none;
+}
+
+main .container form #password {
+    padding: 1rem;
+    border-radius: .5rem;
+    border: .05rem solid gray;
+    margin-bottom: .5rem;
+}
+
+main .container form #password:focus {
+    outline: none;
+}
+
+main .container form .remember-password {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+main .container form .container1 {
+    display: flex;
+}
+
+main .container form .remember-password input {
+    width: .7rem;
+    height: .7rem;
+}
+
+main .container form .remember-password label {
+    font-size: .7rem;
+    padding-left: .2rem;
+}
+
+main .container form .remember-password a {
+    font-size: .7rem;
+    text-decoration: none;
+}
+
+main .container form #continue {
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: #406ef7;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    margin-bottom: .5rem;
+}
+
+main .container form #continue:active {
+    transform: scale(.98);
+}
+
+main .container form label {
+    display: grid;
+    place-items: center;
+    font-size: .8rem;
+    padding-bottom: 1rem;
+}
+
+main .container form #google {
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: #bfb5ae;
+    cursor: pointer;
+    color: #000;
+    border: none;
+}
+
+main .container form #google:active {
+    transform: scale(.98);
+}

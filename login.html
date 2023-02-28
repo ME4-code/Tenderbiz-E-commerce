@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+  </head>
+  <body>
+    <header>
+        <h2>Tenderbiz</h2>
+        <div class='box'>
+        <input type='text' placeholder='Search' id='Search'>
+        </div>
+        <div class='box1'>
+        <i class='bx bx-cart-alt'></i>
+        <a href="profile.html"><button class='Sign-inBtn'>Sign in</button></a>
+        </div>
+    </header>
+    <hr></hr>
+    <div id='rect'>Discount will be applied at checkout for ₦5000
+        off your first order!
+    </div>
+    <main>
+     <div class='container'>
+        <img src='images/hair band.png' alt='loading...'>
+        <form>
+            <h3>Welcome back!</h3>
+            <p>Type your email to log in or create a Tenderbiz account</p>
+            <input type='text' id='email' placeholder='Email'>
+            <input type='password' id='password' placeholder='password'>
+            <div class='remember-password' >
+                <div class='container1'>
+                <input type='checkbox' id='remindBox'>
+                <label for='remindBox'>Remember by me</label><br>
+                </div>
+                <a href='#'>Forgot password?</a>
+            </div>
+            <button id='continue'>Continue</button>
+            <label>Log in or resgister with BVN or OTP</label>
+            <button id='google'>Log in with Google</button>
+
+        </form>
+      </div>
+       
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
