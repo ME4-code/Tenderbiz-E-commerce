@@ -207,10 +207,16 @@ main .container form label {
 main .container form #google {
     padding: 1rem;
     border-radius: .5rem;
+    text-align: center;
     background-color: #bfb5ae;
     cursor: pointer;
     color: #000;
     border: none;
+}
+main .container form i{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 main .container form #google:active {

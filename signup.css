@@ -15,7 +15,7 @@ section div{
   background-color: #ffffff;
 }
 .txt-div{
-  width: 50%;
+  width: 40%;
   height: inherit;
   display: flex;
   flex-direction: column;
@@ -29,13 +29,13 @@ section div{
   text-align: center;
 }
 .txt-div div{
-  width: 70%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
 .txt-div .buy-btn{
   flex: 0.2;
-  margin-left: 2%;
+  margin-left: 0%;
   background-color: white;
   border: solid 1px #1C73f5;
   border-radius: 10%;
@@ -44,6 +44,7 @@ section div{
   outline: none;
   cursor: pointer;
 }
+
 .txt-div span{  
   font-size: 25px;
   margin: 0 5%;
@@ -52,8 +53,8 @@ section div{
 .txt-div .sell-btn{
   flex: 0.3;
   cursor: pointer;
-  margin-right: 3%;
-  background-color: #1C73f5;
+  margin-right: 0%;
+  background-color: #1c73f5;
   color: rgb(232, 232, 241);
   border: none;
   border-radius: 10%;
@@ -62,13 +63,13 @@ section div{
   outline: none;
 }
 .img-div{
-  width: 50%;
+  width: 40%;
   height: inherit;
   cursor: pointer;
-  border-radius: 3rem;
+  border-radius: rem;
 }
 .img-div img{
   width: 100%;
   height: 100%;
-  border-radius: 0 3rem 3rem 0;
+  border-radius: 0 10% 10% 0;
 }

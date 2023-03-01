@@ -7,7 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="profile.css">
+  <link rel="stylesheet" href="profile .css">
+  <script src="https://kit.fontawesome.com/21cf451380.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -15,11 +16,12 @@
       <a href="#">Tenderbiz</a>
     </div>
     <div class="input-div">
-      <input type="text" placeholder="Search">
+      <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+      <input id="input-search" type="text" placeholder="Search">
     </div>
     <div class="back-div">
-      <a href="#">
-        <p><img src="arrow.png" alt="left arrow">Go to site</p>
+      <a href="index.html">
+        <p><i class="fa-solid fa-arrow-left"></i>Go to site</p>
       </a>
     </div>
   </header>
@@ -35,49 +37,49 @@
       <div class="icons">
         <nav>
           <a href="#">
-            <img src="four-squares-button-of-view-options.png" alt="overview">
+            <i class="fa-solid fa-border-all"></i>
             <p>Overview</p>
           </a>
         </nav>
         <nav>
           <a href="#">
-            <img src="user.png" alt="profile">
+            <i class="fa-regular fa-user"></i>
             <p>Profile</p>
           </a>
         </nav>
         <nav>
           <a href="#">
-            <img src="product.png" alt="orders">
+            <i class="fa-solid fa-box-open"></i>
             <p>Orders</p>
           </a>
         </nav>
         <nav>
           <a href="#">
-            <img src="tag.png" alt="Products">
+            <i class="fa-solid fa-tag"></i>
             <p>Products</p>
           </a>
         </nav>
         <nav>
           <a href="#">
-            <img src="report.png" alt="inventory">
+            <i class="fa-regular fa-file-lines"></i>
             <p>Inventory</p>
           </a>
         </nav>
         <nav>
           <a href="#">
-            <img src="megaphone.png" alt="Marketing">
+            <i class="fa-solid fa-bullhorn"></i>
             <p>Marketing</p>
           </a>
         </nav>
         <nav>
           <a href="#">
-            <img src="bar-chart.png" alt="reporst">
+            <i class="fa-solid fa-chart-simple"></i>
             <p>Reports</p>
           </a>
         </nav>
         <nav>
           <a href="#">
-            <img src="settings.png" alt="settings">
+            <i class="fa-solid fa-gear"></i>
             <p>Settings</p>
           </a>
         </nav>
@@ -90,7 +92,7 @@
       <section class="edit-profile">
         <div class="title">
           <p>EDIT PROFILE</p>
-          <img src="pencil.png" alt="pencil">
+          <i class="fa-solid fa-pencil"></i>
         </div>
         <form action="get">
 
@@ -117,7 +119,7 @@
         <div class="edit-password">
           <div class="title">
             <p>EDIT PASSWORD</p>
-            <img src="pencil.png" alt="pencil">
+            <i class="fa-solid fa-pencil"></i>
           </div>
           <form action="get">
             <label for="currentpassword">Current password</label>
@@ -131,7 +133,7 @@
         <div class="edit-notif">
           <div class="title">
             <p>EDIT NOTIFICATION</p>
-            <img class="pencil" src="pencil.png" alt="pencil">
+            <i class="fa-solid fa-pencil"></i>
           </div>
           <form action="get">
             <label class="label" for="orderconfirmation">Order Confirmation</label>
@@ -182,5 +184,14 @@
       </section>
     </div>
   </section>
+
+  <script>
+    document.getElementById('input-search').onfocus = function(){
+      document.getElementById('search-icon').style.visibility = 'hidden';
+    }
+    document.getElementById('input-search').onblur = function(){
+      document.getElementById('search-icon').style.visibility = 'visible';
+    }
+  </script>
 </body>
 </html>
