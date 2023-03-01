@@ -27,7 +27,8 @@
     <main>
      <div class='container'>
         <img src='images/hair band.png' alt='loading...'>
-        <form>
+        <div id="error"></div>
+        <form id="form" action="/" method="get">
             <h3>Welcome back!</h3>
             <p>Type your email to log in or create a Tenderbiz account</p>
             <input type='text' id='email' placeholder='Email'>
@@ -39,9 +40,9 @@
                 </div>
                 <a href='#'>Forgot password?</a>
             </div>
-            <button id='continue'>Continue</button>
+            <button type="submit" id='continue'>Continue</button>
             <label>Log in or resgister with BVN or OTP</label>
-            <button id='google'>Log in with Google</button>
+            <button id='google'><i class='bx bxl-google' style="color: #4885ed;"></i>Log in with Google</button>
 
         </form>
       </div>
