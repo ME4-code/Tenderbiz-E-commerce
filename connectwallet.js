@@ -10,6 +10,6 @@ connectButton.addEventListener('click', async () => {
     // Redirect to the display page
     window.location.href = 'connected.html';
   } else {
-    console.log('Metamask is not installed!');
+    alert('Metamask is not installed! Install Metamask');
   }
 });
