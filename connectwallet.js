@@ -16,15 +16,15 @@ connectButton.addEventListener('click', async () => {
 const connectButton = document.getElementById('connect');
 connectButton.addEventListener('click', async () => {
   if (typeof window.ethereum !== 'undefined') {
-    console.log('Metamask is installed!');
+    alert('Metamask is installed!');
 
     // Connect to Metamask
     await ethereum.request({ method: 'eth_requestAccounts' });
-    console.log('Connected to Metamask!');
+    alert('Connected to Metamask!');
 
     // Redirect to the display page
     window.location.href = 'connected.html';
   } else {
-    console.log('Metamask is not installed!');
+    alert('Metamask is not installed!');
   }
 });
